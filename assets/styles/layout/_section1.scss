@@ -1,0 +1,9 @@
+section{
+    height: 600px;
+    @include center;
+
+    p{
+        width: 50%;
+        text-align: center;
+    }
+}

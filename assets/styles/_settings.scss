@@ -1,0 +1,24 @@
+// SETINGS REGROUPE TOUT LES RÉGLAGES GÉNÉRAUX
+
+@font-face{
+    font-family: 'font-1';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+$font1: font-1, sans-serif;
+$color1: pink;
+$color2: orange;
+$color3: rgb(22, 22, 22);
+
+// MIXINS
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: $color2;
+    font-family: $font1;
+}
